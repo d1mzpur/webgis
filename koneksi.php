@@ -6,8 +6,9 @@ $pass = 'root';
 $dbname = 'gisiot';
 
 $conn = pg_connect("host=$host port=$port dbname=$dbname user=$user password=$pass");
-if(!$conn){
-    echo "Koneksi Gagal". pg_error();
+if (!$conn) {
+    echo "koneksi gagal";
     exit;
 }
+
 ?>

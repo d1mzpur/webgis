@@ -6,5 +6,3 @@ $_SESSION['status'] = "";
 
 
 header("location:index.php");
-
-?>
